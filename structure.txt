@@ -1,0 +1,1201 @@
+op_ng12
+├── src
+│   ├── app
+│   │   ├── admin-setting
+│   │   │   ├── component
+│   │   │   │   ├── data
+│   │   │   │   │   └── tabList.ts
+│   │   │   │   ├── admin-setting.component.html
+│   │   │   │   ├── admin-setting.component.scss
+│   │   │   │   └── admin-setting.component.ts
+│   │   │   └── service
+│   │   │       └── admin-setting.service.ts
+│   │   ├── blank-page
+│   │   │   ├── blank-page.component.html
+│   │   │   ├── blank-page.component.scss
+│   │   │   └── blank-page.component.ts
+│   │   ├── content-layout
+│   │   │   ├── component
+│   │   │   │   ├── content-layout.component.html
+│   │   │   │   ├── content-layout.component.scss
+│   │   │   │   └── content-layout.component.ts
+│   │   │   └── service
+│   │   │       └── content-layout.service.ts
+│   │   ├── dashboard
+│   │   │   ├── component
+│   │   │   │   ├── dashboard.component.html
+│   │   │   │   ├── dashboard.component.scss
+│   │   │   │   └── dashboard.component.ts
+│   │   │   └── service
+│   │   │       └── dashboard.service.ts
+│   │   ├── dashboard-un-auth
+│   │   │   ├── dashboard-un-auth.component.html
+│   │   │   ├── dashboard-un-auth.component.scss
+│   │   │   └── dashboard-un-auth.component.ts
+│   │   ├── dialog
+│   │   │   ├── second-model
+│   │   │   │   ├── am1-block
+│   │   │   │   │   ├── am1-block.component.html
+│   │   │   │   │   ├── am1-block.component.scss
+│   │   │   │   │   └── am1-block.component.ts
+│   │   │   │   ├── angry-block
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── angry-block.service.ts
+│   │   │   │   │   ├── angry-block.component.html
+│   │   │   │   │   ├── angry-block.component.scss
+│   │   │   │   │   └── angry-block.component.ts
+│   │   │   │   ├── com-block
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── com-block.service.ts
+│   │   │   │   │   ├── com-block.component.html
+│   │   │   │   │   ├── com-block.component.scss
+│   │   │   │   │   └── com-block.component.ts
+│   │   │   │   ├── contact-block
+│   │   │   │   │   ├── view
+│   │   │   │   │   │   └── contact-detail
+│   │   │   │   │   │       ├── contact-detail.component.html
+│   │   │   │   │   │       ├── contact-detail.component.scss
+│   │   │   │   │   │       └── contact-detail.component.ts
+│   │   │   │   │   ├── contact-block.component.html
+│   │   │   │   │   ├── contact-block.component.scss
+│   │   │   │   │   └── contact-block.component.ts
+│   │   │   │   ├── credit-block
+│   │   │   │   │   ├── credit-block.component.html
+│   │   │   │   │   ├── credit-block.component.scss
+│   │   │   │   │   └── credit-block.component.ts
+│   │   │   │   ├── credit-gift-block
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── credit-block.service.ts
+│   │   │   │   │   ├── credit-gift-block.component.html
+│   │   │   │   │   ├── credit-gift-block.component.scss
+│   │   │   │   │   └── credit-gift-block.component.ts
+│   │   │   │   ├── currency-block
+│   │   │   │   │   ├── currency-block.component.html
+│   │   │   │   │   ├── currency-block.component.scss
+│   │   │   │   │   └── currency-block.component.ts
+│   │   │   │   ├── cust-block
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── cust-block.service.ts
+│   │   │   │   │   ├── cust-block.component.html
+│   │   │   │   │   ├── cust-block.component.scss
+│   │   │   │   │   └── cust-block.component.ts
+│   │   │   │   ├── deposit-block
+│   │   │   │   │   └── deposit-block.component.html
+│   │   │   │   ├── digi-line
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── lbc-block.service.ts
+│   │   │   │   │   ├── digi-line.component.html
+│   │   │   │   │   ├── digi-line.component.scss
+│   │   │   │   │   └── digi-line.component.ts
+│   │   │   │   ├── digi-mmb
+│   │   │   │   │   ├── digi-mmb.component.html
+│   │   │   │   │   ├── digi-mmb.component.scss
+│   │   │   │   │   └── digi-mmb.component.ts
+│   │   │   │   ├── digi-money
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── digi-money.service.ts
+│   │   │   │   │   ├── digi-money.component.html
+│   │   │   │   │   ├── digi-money.component.scss
+│   │   │   │   │   └── digi-money.component.ts
+│   │   │   │   ├── finance-block
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── finance-block.service.ts
+│   │   │   │   │   ├── finance-block.component.html
+│   │   │   │   │   ├── finance-block.component.scss
+│   │   │   │   │   └── finance-block.component.ts
+│   │   │   │   ├── hand-transfer
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── hand-transfer.service.ts
+│   │   │   │   │   ├── hand-transfer.component.html
+│   │   │   │   │   ├── hand-transfer.component.scss
+│   │   │   │   │   └── hand-transfer.component.ts
+│   │   │   │   ├── insurance-block
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── insurance-block.service.ts
+│   │   │   │   │   ├── insurance-block.component.html
+│   │   │   │   │   ├── insurance-block.component.scss
+│   │   │   │   │   └── insurance-block.component.ts
+│   │   │   │   ├── ntd-block
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── ntd-block.service.ts
+│   │   │   │   │   ├── ntd-block.component.html
+│   │   │   │   │   ├── ntd-block.component.scss
+│   │   │   │   │   └── ntd-block.component.ts
+│   │   │   │   ├── ntd-currency-block
+│   │   │   │   │   ├── ntd-currency-block.component.html
+│   │   │   │   │   ├── ntd-currency-block.component.scss
+│   │   │   │   │   └── ntd-currency-block.component.ts
+│   │   │   │   ├── pers-level
+│   │   │   │   │   ├── pers-level.component.html
+│   │   │   │   │   ├── pers-level.component.scss
+│   │   │   │   │   └── pers-level.component.ts
+│   │   │   │   ├── phone-email
+│   │   │   │   │   ├── phone-email.component.html
+│   │   │   │   │   ├── phone-email.component.scss
+│   │   │   │   │   └── phone-email.component.ts
+│   │   │   │   ├── recomm-block
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── recomm-block.service.ts
+│   │   │   │   │   ├── recomm-block.component.html
+│   │   │   │   │   ├── recomm-block.component.scss
+│   │   │   │   │   └── recomm-block.component.ts
+│   │   │   │   ├── refuse-block
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── refuse-block.service.ts
+│   │   │   │   │   ├── refuse-block.component.html
+│   │   │   │   │   ├── refuse-block.component.scss
+│   │   │   │   │   └── refuse-block.component.ts
+│   │   │   │   ├── sms-sale
+│   │   │   │   │   ├── data
+│   │   │   │   │   │   └── pushTypeList.ts
+│   │   │   │   │   ├── service
+│   │   │   │   │   │   └── sms-sale.service.ts
+│   │   │   │   │   ├── sms-sale.component.html
+│   │   │   │   │   ├── sms-sale.component.scss
+│   │   │   │   │   └── sms-sale.component.ts
+│   │   │   │   └── second-model.module.ts
+│   │   │   ├── dialog-config.ts
+│   │   │   ├── dialog-registry.ts
+│   │   │   ├── dialog-wrapper.component.html
+│   │   │   ├── dialog-wrapper.component.scss
+│   │   │   └── dialog-wrapper.component.ts
+│   │   ├── directives
+│   │   │   └── tooltip.directive.ts
+│   │   ├── dummy
+│   │   │   └── dummy-data.ts
+│   │   ├── header
+│   │   │   ├── component
+│   │   │   │   ├── header.component.html
+│   │   │   │   ├── header.component.scss
+│   │   │   │   └── header.component.ts
+│   │   ├── shared
+│   │   │   ├── components
+│   │   │   │   ├── admin-form
+│   │   │   │   │   ├── email-form
+│   │   │   │   │   │   ├── email-form.component.html
+│   │   │   │   │   │   ├── email-form.component.scss
+│   │   │   │   │   │   └── email-form.component.ts
+│   │   │   │   │   ├── pitch-form
+│   │   │   │   │   │   ├── pitch-form.component.html
+│   │   │   │   │   │   ├── pitch-form.component.scss
+│   │   │   │   │   │   └── pitch-form.component.ts
+│   │   │   │   │   ├── pname-form
+│   │   │   │   │   │   ├── pname-form.component.html
+│   │   │   │   │   │   ├── pname-form.component.scss
+│   │   │   │   │   │   └── pname-form.component.ts
+│   │   │   │   │   ├── sms-form
+│   │   │   │   │   │   ├── service
+│   │   │   │   │   │   │   └── sms-form.service.ts
+│   │   │   │   │   │   ├── sms-form.component.html
+│   │   │   │   │   │   ├── sms-form.component.scss
+│   │   │   │   │   │   └── sms-form.component.ts
+│   │   │   │   │   └── admin-form.module.ts
+│   │   │   │   ├── block
+│   │   │   │   │   ├── admin-content
+│   │   │   │   │   │   ├── admin-table
+│   │   │   │   │   │   │   ├── custom
+│   │   │   │   │   │   │   │   └── customPaginator.ts
+│   │   │   │   │   │   │   ├── email-table
+│   │   │   │   │   │   │   │   ├── email-table.component.html
+│   │   │   │   │   │   │   │   ├── email-table.component.scss
+│   │   │   │   │   │   │   │   └── email-table.component.ts
+│   │   │   │   │   │   │   ├── pitch-table
+│   │   │   │   │   │   │   │   ├── pitch-table.component.html
+│   │   │   │   │   │   │   │   ├── pitch-table.component.scss
+│   │   │   │   │   │   │   │   └── pitch-table.component.ts
+│   │   │   │   │   │   │   ├── prod-table
+│   │   │   │   │   │   │   │   ├── prod-table.component.html
+│   │   │   │   │   │   │   │   ├── prod-table.component.scss
+│   │   │   │   │   │   │   │   └── prod-table.component.ts
+│   │   │   │   │   │   │   ├── project-table
+│   │   │   │   │   │   │   │   ├── project-table.component.html
+│   │   │   │   │   │   │   │   ├── project-table.component.scss
+│   │   │   │   │   │   │   │   └── project-table.component.ts
+│   │   │   │   │   │   │   ├── service
+│   │   │   │   │   │   │   │   └── admin-service.service.ts
+│   │   │   │   │   │   │   ├── sms-table
+│   │   │   │   │   │   │   │   ├── sms-table.component.html
+│   │   │   │   │   │   │   │   ├── sms-table.component.scss
+│   │   │   │   │   │   │   │   └── sms-table.component.ts
+│   │   │   │   │   │   │   └── admin-table.module.ts
+│   │   │   │   │   │   ├── data
+│   │   │   │   │   │   │   ├── request-data.ts
+│   │   │   │   │   │   │   └── tableList.ts
+│   │   │   │   │   │   ├── service
+│   │   │   │   │   │   │   └── admin-content.service.ts
+│   │   │   │   │   │   ├── admin-content.component.html
+│   │   │   │   │   │   ├── admin-content.component.scss
+│   │   │   │   │   │   └── admin-content.component.ts
+│   │   │   │   │   ├── admin-edit
+│   │   │   │   │   │   ├── admin-edit.component.html
+│   │   │   │   │   │   ├── admin-edit.component.scss
+│   │   │   │   │   │   └── admin-edit.component.ts
+│   │   │   │   │   ├── admin-filter
+│   │   │   │   │   │   ├── admin-filter.component.html
+│   │   │   │   │   │   ├── admin-filter.component.scss
+│   │   │   │   │   │   └── admin-filter.component.ts
+│   │   │   │   │   ├── chart-block
+│   │   │   │   │   │   ├── asset-chart
+│   │   │   │   │   │   │   ├── service
+│   │   │   │   │   │   │   │   └── asset-chart.service.ts
+│   │   │   │   │   │   │   ├── asset-chart.component.html
+│   │   │   │   │   │   │   ├── asset-chart.component.scss
+│   │   │   │   │   │   │   └── asset-chart.component.ts
+│   │   │   │   │   │   ├── debt-chart
+│   │   │   │   │   │   │   ├── service
+│   │   │   │   │   │   │   │   └── debt-chart.service.ts
+│   │   │   │   │   │   │   ├── debt-chart.component.html
+│   │   │   │   │   │   │   ├── debt-chart.component.scss
+│   │   │   │   │   │   │   └── debt-chart.component.ts
+│   │   │   │   │   │   ├── models
+│   │   │   │   │   │   │   └── assetsModel.ts
+│   │   │   │   │   │   └── chart-block.module.ts
+│   │   │   │   │   ├── customer-journey
+│   │   │   │   │   │   ├── component
+│   │   │   │   │   │   │   ├── customer-journey.component.html
+│   │   │   │   │   │   │   ├── customer-journey.component.scss
+│   │   │   │   │   │   │   └── customer-journey.component.ts
+│   │   │   │   │   │   └── service
+│   │   │   │   │   │       ├── customer-journey.service.ts
+│   │   │   │   │   │       └── store-type.service.ts
+│   │   │   │   │   ├── customer-profile
+│   │   │   │   │   │   ├── customer-profile
+│   │   │   │   │   │   │   └── component
+│   │   │   │   │   │   │       ├── customer-profile.component.html
+│   │   │   │   │   │   │       ├── customer-profile.component.scss
+│   │   │   │   │   │   │       └── customer-profile.component.ts
+│   │   │   │   │   │   ├── model
+│   │   │   │   │   │   │   ├── customerAuxiliaryModel.ts
+│   │   │   │   │   │   │   ├── customerFeeCntModel.ts
+│   │   │   │   │   │   │   ├── customerProfileModel.ts
+│   │   │   │   │   │   │   ├── customerProfileOtherModel.ts
+│   │   │   │   │   │   │   ├── customerRejPromoModel.ts
+│   │   │   │   │   │   │   └── customerUpgradeComplaintModel.ts
+│   │   │   │   │   │   ├── profile-block
+│   │   │   │   │   │   │   ├── profile-avatar
+│   │   │   │   │   │   │   │   ├── profile-avatar.component.html
+│   │   │   │   │   │   │   │   ├── profile-avatar.component.scss
+│   │   │   │   │   │   │   │   └── profile-avatar.component.ts
+│   │   │   │   │   │   │   ├── profile-event-icons
+│   │   │   │   │   │   │   │   ├── profile-event-icons.component.html
+│   │   │   │   │   │   │   │   ├── profile-event-icons.component.scss
+│   │   │   │   │   │   │   │   └── profile-event-icons.component.ts
+│   │   │   │   │   │   │   ├── profile-fee
+│   │   │   │   │   │   │   │   ├── profile-fee.component.html
+│   │   │   │   │   │   │   │   ├── profile-fee.component.scss
+│   │   │   │   │   │   │   │   └── profile-fee.component.ts
+│   │   │   │   │   │   │   ├── profile-info
+│   │   │   │   │   │   │   │   ├── profile-info.component.html
+│   │   │   │   │   │   │   │   ├── profile-info.component.scss
+│   │   │   │   │   │   │   │   └── profile-info.component.ts
+│   │   │   │   │   │   │   ├── profile-no-icons
+│   │   │   │   │   │   │   │   ├── profile-no-icons.component.html
+│   │   │   │   │   │   │   │   ├── profile-no-icons.component.scss
+│   │   │   │   │   │   │   │   └── profile-no-icons.component.ts
+│   │   │   │   │   │   │   └── profile-block.module.ts
+│   │   │   │   │   │   └── service
+│   │   │   │   │   │       └── customer-profile.service.ts
+│   │   │   │   │   ├── holding-product
+│   │   │   │   │   │   ├── component
+│   │   │   │   │   │   │   ├── holding-product.component.html
+│   │   │   │   │   │   │   ├── holding-product.component.scss
+│   │   │   │   │   │   │   └── holding-product.component.ts
+│   │   │   │   │   │   ├── holding-block
+│   │   │   │   │   │   │   ├── holding-credit
+│   │   │   │   │   │   │   │   ├── holding-credit.component.html
+│   │   │   │   │   │   │   │   ├── holding-credit.component.scss
+│   │   │   │   │   │   │   │   └── holding-credit.component.ts
+│   │   │   │   │   │   │   ├── holding-credit-ipad
+│   │   │   │   │   │   │   │   ├── holding-credit-ipad.component.html
+│   │   │   │   │   │   │   │   ├── holding-credit-ipad.component.scss
+│   │   │   │   │   │   │   │   └── holding-credit-ipad.component.ts
+│   │   │   │   │   │   │   ├── holding-status
+│   │   │   │   │   │   │   │   ├── holding-status.component.html
+│   │   │   │   │   │   │   │   ├── holding-status.component.scss
+│   │   │   │   │   │   │   │   └── holding-status.component.ts
+│   │   │   │   │   │   │   ├── holding-status-ipad
+│   │   │   │   │   │   │   │   ├── holding-status-ipad.component.html
+│   │   │   │   │   │   │   │   ├── holding-status-ipad.component.scss
+│   │   │   │   │   │   │   │   └── holding-status-ipad.component.ts
+│   │   │   │   │   │   │   └── holding-block.module.ts
+│   │   │   │   │   │   ├── model
+│   │   │   │   │   │   │   └── creditCardInfoModel.ts
+│   │   │   │   │   │   └── service
+│   │   │   │   │   │       └── holding-product.service.ts
+│   │   │   │   │   ├── icons
+│   │   │   │   │   │   ├── angry-icon
+│   │   │   │   │   │   │   ├── angry-icon.component.html
+│   │   │   │   │   │   │   ├── angry-icon.component.scss
+│   │   │   │   │   │   │   └── angry-icon.component.ts
+│   │   │   │   │   │   ├── circle-light
+│   │   │   │   │   │   │   ├── circle-light.component.html
+│   │   │   │   │   │   │   ├── circle-light.component.scss
+│   │   │   │   │   │   │   └── circle-light.component.ts
+│   │   │   │   │   │   ├── icon-bulb
+│   │   │   │   │   │   │   ├── icon-bulb.component.html
+│   │   │   │   │   │   │   ├── icon-bulb.component.scss
+│   │   │   │   │   │   │   └── icon-bulb.component.ts
+│   │   │   │   │   │   ├── icon-credit
+│   │   │   │   │   │   │   ├── icon-credit.component.html
+│   │   │   │   │   │   │   ├── icon-credit.component.scss
+│   │   │   │   │   │   │   └── icon-credit.component.ts
+│   │   │   │   │   │   ├── icon-cube
+│   │   │   │   │   │   │   ├── icon-cube.component.html
+│   │   │   │   │   │   │   ├── icon-cube.component.scss
+│   │   │   │   │   │   │   └── icon-cube.component.ts
+│   │   │   │   │   │   ├── icon-currency
+│   │   │   │   │   │   │   ├── icon-currency.component.html
+│   │   │   │   │   │   │   ├── icon-currency.component.scss
+│   │   │   │   │   │   │   └── icon-currency.component.ts
+│   │   │   │   │   │   ├── icon-digital
+│   │   │   │   │   │   │   ├── icon-digital.component.html
+│   │   │   │   │   │   │   ├── icon-digital.component.scss
+│   │   │   │   │   │   │   └── icon-digital.component.ts
+│   │   │   │   │   │   ├── icon-fail
+│   │   │   │   │   │   │   ├── icon-fail.component.html
+│   │   │   │   │   │   │   ├── icon-fail.component.scss
+│   │   │   │   │   │   │   └── icon-fail.component.ts
+│   │   │   │   │   │   ├── icon-finance
+│   │   │   │   │   │   │   ├── icon-finance.component.html
+│   │   │   │   │   │   │   ├── icon-finance.component.scss
+│   │   │   │   │   │   │   └── icon-finance.component.ts
+│   │   │   │   │   │   ├── icon-insurance
+│   │   │   │   │   │   │   ├── icon-insurance.component.html
+│   │   │   │   │   │   │   ├── icon-insurance.component.scss
+│   │   │   │   │   │   │   └── icon-insurance.component.ts
+│   │   │   │   │   │   ├── icon-loan
+│   │   │   │   │   │   │   ├── icon-loan.component.html
+│   │   │   │   │   │   │   ├── icon-loan.component.scss
+│   │   │   │   │   │   │   └── icon-loan.component.ts
+│   │   │   │   │   │   ├── icon-mmb
+│   │   │   │   │   │   │   ├── icon-mmb.component.html
+│   │   │   │   │   │   │   ├── icon-mmb.component.scss
+│   │   │   │   │   │   │   └── icon-mmb.component.ts
+│   │   │   │   │   │   ├── icon-ntd
+│   │   │   │   │   │   │   ├── icon-ntd.component.html
+│   │   │   │   │   │   │   ├── icon-ntd.component.scss
+│   │   │   │   │   │   │   └── icon-ntd.component.ts
+│   │   │   │   │   │   ├── logo-icon
+│   │   │   │   │   │   │   ├── logo.component.html
+│   │   │   │   │   │   │   ├── logo.component.scss
+│   │   │   │   │   │   │   └── logo.component.ts
+│   │   │   │   │   │   ├── logo-white
+│   │   │   │   │   │   │   ├── logo-white.component.html
+│   │   │   │   │   │   │   ├── logo-white.component.scss
+│   │   │   │   │   │   │   └── logo-white.component.ts
+│   │   │   │   │   │   ├── marketing-icon
+│   │   │   │   │   │   │   ├── service
+│   │   │   │   │   │   │   │   └── marketing-icon.service.ts
+│   │   │   │   │   │   │   ├── marketing-icon.component.html
+│   │   │   │   │   │   │   ├── marketing-icon.component.scss
+│   │   │   │   │   │   │   └── marketing-icon.component.ts
+│   │   │   │   │   │   └── no-marketing-icon
+│   │   │   │   │   │       ├── no-marketing-icon.component.html
+│   │   │   │   │   │       ├── no-marketing-icon.component.scss
+│   │   │   │   │   │       └── no-marketing-icon.component.ts
+│   │   │   │   │   ├── ipad-chart
+│   │   │   │   │   │   ├── ipad-chart.component.html
+│   │   │   │   │   │   ├── ipad-chart.component.scss
+│   │   │   │   │   │   └── ipad-chart.component.ts
+│   │   │   │   │   ├── message-block
+│   │   │   │   │   │   ├── pitch-block
+│   │   │   │   │   │   │   ├── pitch-block.component.html
+│   │   │   │   │   │   │   ├── pitch-block.component.scss
+│   │   │   │   │   │   │   └── pitch-block.component.ts
+│   │   │   │   │   │   ├── message-block.component.html
+│   │   │   │   │   │   ├── message-block.component.scss
+│   │   │   │   │   │   ├── message-block.component.ts
+│   │   │   │   │   │   └── message-block.module.ts
+│   │   │   │   │   ├── search
+│   │   │   │   │   │   └── search
+│   │   │   │   │   │       ├── search.component.html
+│   │   │   │   │   │       ├── search.component.scss
+│   │   │   │   │   │       └── search.component.ts
+│   │   │   │   │   ├── side-edit
+│   │   │   │   │   │   ├── side-edit.component.html
+│   │   │   │   │   │   ├── side-edit.component.scss
+│   │   │   │   │   │   └── side-edit.component.ts
+│   │   │   │   │   ├── side-menu
+│   │   │   │   │   │   ├── component
+│   │   │   │   │   │   │   ├── side-menu.component.html
+│   │   │   │   │   │   │   ├── side-menu.component.scss
+│   │   │   │   │   │   │   └── side-menu.component.ts
+│   │   │   │   │   │   └── data
+│   │   │   │   │   │       └── menuData.ts
+│   │   │   │   │   ├── signal-light
+│   │   │   │   │   │   ├── order
+│   │   │   │   │   │   │   └── order.ts
+│   │   │   │   │   │   ├── service
+│   │   │   │   │   │   │   ├── recomm-icon.service.ts
+│   │   │   │   │   │   │   └── signal-light.service.ts
+│   │   │   │   │   │   ├── signal-light.component.html
+│   │   │   │   │   │   ├── signal-light.component.scss
+│   │   │   │   │   │   └── signal-light.component.ts
+│   │   │   │   │   └── block.module.ts
+│   │   │   │   ├── common
+│   │   │   │   │   ├── cathy-email
+│   │   │   │   │   │   ├── cathy-email.component.html
+│   │   │   │   │   │   ├── cathy-email.component.scss
+│   │   │   │   │   │   └── cathy-email.component.ts
+│   │   │   │   │   ├── little-loading
+│   │   │   │   │   │   ├── little-loading.component.html
+│   │   │   │   │   │   ├── little-loading.component.scss
+│   │   │   │   │   │   └── little-loading.component.ts
+│   │   │   │   │   ├── loading
+│   │   │   │   │   │   ├── loading.component.html
+│   │   │   │   │   │   ├── loading.component.scss
+│   │   │   │   │   │   └── loading.component.ts
+│   │   │   │   │   ├── msg-dialog
+│   │   │   │   │   │   ├── msg-dialog.component.html
+│   │   │   │   │   │   ├── msg-dialog.component.scss
+│   │   │   │   │   │   ├── msg-dialog.component.ts
+│   │   │   │   │   │   └── msg-dialog.component2.html
+│   │   │   │   │   ├── no-block
+│   │   │   │   │   │   ├── no-block.component.html
+│   │   │   │   │   │   ├── no-block.component.scss
+│   │   │   │   │   │   └── no-block.component.ts
+│   │   │   │   │   ├── no-chart
+│   │   │   │   │   │   ├── no-chart.component.html
+│   │   │   │   │   │   ├── no-chart.component.scss
+│   │   │   │   │   │   └── no-chart.component.ts
+│   │   │   │   │   ├── no-data
+│   │   │   │   │   │   ├── no-data.component.html
+│   │   │   │   │   │   ├── no-data.component.scss
+│   │   │   │   │   │   └── no-data.component.ts
+│   │   │   │   │   ├── over-lays
+│   │   │   │   │   │   ├── over-lays.component.html
+│   │   │   │   │   │   ├── over-lays.component.scss
+│   │   │   │   │   │   └── over-lays.component.ts
+│   │   │   │   │   ├── pagination
+│   │   │   │   │   │   ├── pagination.component.html
+│   │   │   │   │   │   ├── pagination.component.scss
+│   │   │   │   │   │   └── pagination.component.ts
+│   │   │   │   │   ├── temp-preview
+│   │   │   │   │   │   ├── temp-preview.component.html
+│   │   │   │   │   │   ├── temp-preview.component.scss
+│   │   │   │   │   │   └── temp-preview.component.ts
+│   │   │   │   │   ├── toast-block
+│   │   │   │   │   │   ├── toast-block.component.html
+│   │   │   │   │   │   ├── toast-block.component.scss
+│   │   │   │   │   │   └── toast-block.component.ts
+│   │   │   │   │   ├── water-print
+│   │   │   │   │   │   ├── water-print.component.html
+│   │   │   │   │   │   ├── water-print.component.scss
+│   │   │   │   │   │   └── water-print.component.ts
+│   │   │   │   │   └── model.module.ts
+│   │   │   │   ├── email-tpl
+│   │   │   │   │   ├── email-card
+│   │   │   │   │   │   ├── email-card.component.html
+│   │   │   │   │   │   ├── email-card.component.scss
+│   │   │   │   │   │   └── email-card.component.ts
+│   │   │   │   │   ├── email-mmb
+│   │   │   │   │   │   ├── email-mmb.component.html
+│   │   │   │   │   │   ├── email-mmb.component.scss
+│   │   │   │   │   │   └── email-mmb.component.ts
+│   │   │   │   │   ├── email-robo
+│   │   │   │   │   │   ├── email-robo.component.html
+│   │   │   │   │   │   ├── email-robo.component.scss
+│   │   │   │   │   │   └── email-robo.component.ts
+│   │   │   │   │   └── email-tpl.module.ts
+│   │   │   │   └── shared-icon
+│   │   │   │       ├── icon-info
+│   │   │   │       │   ├── icon-info.component.html
+│   │   │   │       │   ├── icon-info.component.scss
+│   │   │   │       │   └── icon-info.component.ts
+│   │   │   │       ├── icon-lbc
+│   │   │   │       │   ├── icon-lbc.component.html
+│   │   │   │       │   ├── icon-lbc.component.scss
+│   │   │   │       │   └── icon-lbc.component.ts
+│   │   │   │       ├── icon-no
+│   │   │   │       │   ├── icon-no.component.html
+│   │   │   │       │   ├── icon-no.component.scss
+│   │   │   │       │   └── icon-no.component.ts
+│   │   │   │       ├── icon-search
+│   │   │   │       │   ├── icon-search.component.html
+│   │   │   │       │   ├── icon-search.component.scss
+│   │   │   │       │   └── icon-search.component.ts
+│   │   │   │       ├── icon-warning
+│   │   │   │       │   ├── icon-warning.component.html
+│   │   │   │       │   ├── icon-warning.component.scss
+│   │   │   │       │   └── icon-warning.component.ts
+│   │   │   │       ├── icon-yes
+│   │   │   │       │   ├── icon-yes.component.html
+│   │   │   │       │   ├── icon-yes.component.scss
+│   │   │   │       │   └── icon-yes.component.ts
+│   │   │   │       ├── progress-bar
+│   │   │   │       │   ├── progress-bar.component.html
+│   │   │   │       │   ├── progress-bar.component.scss
+│   │   │   │       │   └── progress-bar.component.ts
+│   │   │   │       ├── progress-steps
+│   │   │   │       │   ├── progress-steps.component.html
+│   │   │   │       │   ├── progress-steps.component.scss
+│   │   │   │       │   └── progress-steps.component.ts
+│   │   │   │       ├── text-btn
+│   │   │   │       │   ├── text-btn.component.html
+│   │   │   │       │   ├── text-btn.component.scss
+│   │   │   │       │   └── text-btn.component.ts
+│   │   │   │       └── shared-icon.module.ts
+│   │   │   └── shared-twinkling
+│   │   │       ├── twinkling-base-circle
+│   │   │       │   ├── twinkling-base-circle.component.html
+│   │   │       │   ├── twinkling-base-circle.component.scss
+│   │   │       │   └── twinkling-base-circle.component.ts
+│   │   │       ├── twinkling-glowing
+│   │   │       │   ├── twinkling-glowing.component.html
+│   │   │       │   ├── twinkling-glowing.component.scss
+│   │   │       │   └── twinkling-glowing.component.ts
+│   │   │       ├── twinkling-glowing-circle
+│   │   │       │   ├── twinkling-glowing-circle.component.html
+│   │   │       │   ├── twinkling-glowing-circle.component.scss
+│   │   │       │   └── twinkling-glowing-circle.component.ts
+│   │   │       ├── twinkling-halo
+│   │   │       │   ├── twinkling-halo.component.html
+│   │   │       │   ├── twinkling-halo.component.scss
+│   │   │       │   └── twinkling-halo.component.ts
+│   │   │       ├── twinkling-wave
+│   │   │       │   ├── twinkling-wave.component.html
+│   │   │       │   ├── twinkling-wave.component.scss
+│   │   │       │   └── twinkling-wave.component.ts
+│   │   │       ├── twinkling-wave-circle
+│   │   │       │   ├── twinkling-wave-circle.component.html
+│   │   │       │   ├── twinkling-wave-circle.component.scss
+│   │   │       │   └── twinkling-wave-circle.component.ts
+│   │   │       ├── twinkling1-base
+│   │   │       │   ├── twinkling1-base.component.html
+│   │   │       │   ├── twinkling1-base.component.scss
+│   │   │       │   └── twinkling1-base.component.ts
+│   │   │       ├── css-style.ts
+│   │   │       └── shared-twinkling.module.ts
+│   │   ├── enums
+│   │   │   ├── data-enum.ts
+│   │   │   └── signalLight-enum.ts
+│   │   ├── models
+│   │   │   ├── adminPage
+│   │   │   │   ├── getCjToken-request.ts
+│   │   │   │   ├── getCjToken-response.ts
+│   │   │   │   ├── getCMSCardList-request.ts
+│   │   │   │   ├── getCMSCardList-response.ts
+│   │   │   │   ├── getPromoteEmail-request.ts
+│   │   │   │   ├── getPromoteEmail-response.ts
+│   │   │   │   ├── getPromotePitch-request.ts
+│   │   │   │   ├── getPromotePitch-response.ts
+│   │   │   │   ├── getPromotePitchOp-request.ts
+│   │   │   │   ├── getPromotePitchOp-response.ts
+│   │   │   │   ├── getPromoteProduct-request.ts
+│   │   │   │   ├── getPromoteProduct-response.ts
+│   │   │   │   ├── getPromoteProject-request.ts
+│   │   │   │   ├── getPromoteProject-response.ts
+│   │   │   │   ├── getPromoteSMS-request.ts
+│   │   │   │   ├── getPromoteSMS-response.ts
+│   │   │   │   ├── sendPromoteEmail-request.ts
+│   │   │   │   ├── sendPromoteEmail-response.ts
+│   │   │   │   ├── sendPromoteMsg-request.ts
+│   │   │   │   ├── sendPromoteMsg-response.ts
+│   │   │   │   ├── setCustCCardEmail-request.ts
+│   │   │   │   ├── setCustCCardEmail-response.ts
+│   │   │   │   ├── setCustCCardSMS-request.ts
+│   │   │   │   ├── setCustCCardSMS-response.ts
+│   │   │   │   ├── setCustMMBEmail-request.ts
+│   │   │   │   ├── setCustMMBEmail-response.ts
+│   │   │   │   ├── setCustMMBSMS-request.ts
+│   │   │   │   ├── setCustMMBSMS-response.ts
+│   │   │   │   ├── setCustROBOEmail-request.ts
+│   │   │   │   ├── setCustROBOEmail-response.ts
+│   │   │   │   ├── setCustROBOSMS-request.ts
+│   │   │   │   └── setCustROBOSMS-response.ts
+│   │   │   ├── common
+│   │   │   │   ├── common-header-request.ts
+│   │   │   │   ├── common-header-response.ts
+│   │   │   │   ├── common-request.ts
+│   │   │   │   ├── common-response.ts
+│   │   │   │   ├── login-data.ts
+│   │   │   │   ├── sidemenu-list.ts
+│   │   │   │   ├── token-header-request.ts
+│   │   │   │   └── token-header-response.ts
+│   │   │   ├── second
+│   │   │   │   ├── accCurrency-request.ts
+│   │   │   │   ├── accCurrency-response.ts
+│   │   │   │   ├── accNtd-request.ts
+│   │   │   │   ├── accNtd-response.ts
+│   │   │   │   ├── currency-dpfx-detail-request.ts
+│   │   │   │   ├── currency-dpfx-detail-response.ts
+│   │   │   │   ├── custFace-request.ts
+│   │   │   │   ├── custFace-response.ts
+│   │   │   │   ├── custLiabilities-request.ts
+│   │   │   │   ├── custLiabilities-response.ts
+│   │   │   │   ├── custProfile-angryBlock-request.ts
+│   │   │   │   ├── custProfile-angryBlock-response.ts
+│   │   │   │   ├── custProfile-comBlock-request.ts
+│   │   │   │   ├── custProfile-comBlock-response.ts
+│   │   │   │   ├── custProfile-contactBlock-request.ts
+│   │   │   │   ├── custProfile-contactBlock-response.ts
+│   │   │   │   ├── custProfile-creditBlock-request.ts
+│   │   │   │   ├── custProfile-creditBlock-response.ts
+│   │   │   │   ├── custProfile-handTransfer-request.ts
+│   │   │   │   ├── custProfile-handTransfer-response.ts
+│   │   │   │   ├── custProfile-upVipBlock-request.ts
+│   │   │   │   ├── custProfile-upVipBlock-response.ts
+│   │   │   │   ├── deposit-request.ts
+│   │   │   │   ├── deposit-response.ts
+│   │   │   │   ├── digitalUpgrade-request.ts
+│   │   │   │   ├── digitalUpgrade-response.ts
+│   │   │   │   ├── finance-request.ts
+│   │   │   │   ├── finance-response.ts
+│   │   │   │   ├── insurance-request.ts
+│   │   │   │   ├── insurance-response.ts
+│   │   │   │   ├── lbc-request.ts
+│   │   │   │   ├── lbc-response.ts
+│   │   │   │   ├── mmb-request.ts
+│   │   │   │   ├── mmb-response.ts
+│   │   │   │   ├── prodHold-digiMoney-request.ts
+│   │   │   │   └── prodHold-digiMoney-response.ts
+│   │   │   ├── token
+│   │   │   │   ├── getAcctTrustKey-request.ts
+│   │   │   │   ├── getAcctTrustKey-response.ts
+│   │   │   │   ├── getToken-request.ts
+│   │   │   │   ├── getToken-response.ts
+│   │   │   │   └── token-common-header-request.ts
+│   │   │   ├── checkEIPToken-request.ts
+│   │   │   ├── checkEIPToken-response.ts
+│   │   │   ├── clickStore-request.ts
+│   │   │   ├── clickStore-response.ts
+│   │   │   ├── custFacility-request.ts
+│   │   │   ├── custFacility-response.ts
+│   │   │   ├── custJourney-request.ts
+│   │   │   ├── custJourney-response.ts
+│   │   │   ├── custProfile-contactInfo-request.ts
+│   │   │   ├── custProfile-contactInfo-response.ts
+│   │   │   ├── custProfile-feeCnt-request.ts
+│   │   │   ├── custProfile-feeCnt-response.ts
+│   │   │   ├── custProfile-giftInfo-request.ts
+│   │   │   ├── custProfile-giftInfo-response.ts
+│   │   │   ├── custProfile-other-request.ts
+│   │   │   ├── custProfile-other-response.ts
+│   │   │   ├── custProfile-otherRecommendation-request.ts
+│   │   │   ├── custProfile-otherRecommendation-response.ts
+│   │   │   ├── custProfile-persRight-response.ts
+│   │   │   ├── custProfile-rejPromotion-request.ts
+│   │   │   ├── custProfile-rejPromotion-response.ts
+│   │   │   ├── custProfile-request.ts
+│   │   │   ├── custProfile-response.ts
+│   │   │   ├── custProfile-upgradeComplaint-request.ts
+│   │   │   ├── custProfile-upgradeComplaint-response.ts
+│   │   │   ├── getAccountTrustKey-request.ts
+│   │   │   ├── getAccountTrustKey-response.ts
+│   │   │   ├── getAoCheck-request.ts
+│   │   │   ├── getAoCheck-response.ts
+│   │   │   ├── holdingProd-assets-request.ts
+│   │   │   ├── holdingProd-assets-response.ts
+│   │   │   ├── holdingProd-assetsInvestment-request.ts
+│   │   │   ├── holdingProd-assetsInvestment-response.ts
+│   │   │   ├── holdingProd-assetsNtdDetail-request.ts
+│   │   │   ├── holdingProd-assetsNtdDetail-response.ts
+│   │   │   ├── holdingProd-assetsSavingDetail-request.ts
+│   │   │   ├── holdingProd-assetsSavingDetail-response.ts
+│   │   │   ├── holdingProd-creditCardDetail-request.ts
+│   │   │   ├── holdingProd-creditCardDetail-response.ts
+│   │   │   ├── holdingProd-creditCardInfo-request.ts
+│   │   │   ├── holdingProd-creditCardInfo-response.ts
+│   │   │   ├── holdingProd-custLiabilities-request.ts
+│   │   │   ├── holdingProd-custLiabilities-response.ts
+│   │   │   ├── noSell-request.ts
+│   │   │   ├── noSell-response.ts
+│   │   │   ├── recommPitch-request.ts
+│   │   │   ├── recommPitch-response.ts
+│   │   │   ├── recommStore-request.ts
+│   │   │   └── recommStore-response.ts
+│   │   ├── module
+│   │   │   └── shared-material.module.ts
+│   │   ├── pipe
+│   │   │   ├── currency-unit.pipe.ts
+│   │   │   ├── custom-date.pipe.ts
+│   │   │   ├── dateformat.detepipe.ts
+│   │   │   ├── default-value.pipe.ts
+│   │   │   └── pipe.module.ts
+│   │   ├── services
+│   │   │   ├── itemService
+│   │   │   │   ├── credit-card-data.service.ts
+│   │   │   │   ├── customer-data.service.ts
+│   │   │   │   ├── dashboard-search.service.ts
+│   │   │   │   ├── login-data.service.ts
+│   │   │   │   ├── store-backstage.service.ts
+│   │   │   │   └── storing-response-data.service.ts
+│   │   │   ├── admin-timeout.service.ts
+│   │   │   ├── change-light-level.service.ts
+│   │   │   ├── change-shiny-style.service.ts
+│   │   │   ├── date-util.service.ts
+│   │   │   ├── dummydata.service.ts
+│   │   │   ├── getHtmlString.service.ts
+│   │   │   ├── getImage.service.ts
+│   │   │   ├── getTab.service.ts
+│   │   │   ├── getToken.service.ts
+│   │   │   ├── geturl.service.ts
+│   │   │   ├── http.service.ts
+│   │   │   ├── inject.service.ts
+│   │   │   ├── ipad-ui.service.ts
+│   │   │   ├── msg-dialog.service.ts
+│   │   │   ├── recomm.service.ts
+│   │   │   ├── resize.service.ts
+│   │   │   ├── shared-tool.service.ts
+│   │   │   ├── shared.service.ts
+│   │   │   ├── store-click.service.ts
+│   │   │   ├── timeout.service.ts
+│   │   │   ├── universal-dialog.service.ts
+│   │   │   ├── user-agent.service.ts
+│   │   │   └── utils.service.ts
+│   │   ├── validation
+│   │   │   └── rules.ts
+│   │   ├── timeout
+│   │   │   ├── component
+│   │   │   │   ├── timeout.component.html
+│   │   │   │   ├── timeout.component.scss
+│   │   │   │   └── timeout.component.ts
+│   │   ├── main.component.html
+│   │   ├── main.component.scss
+│   │   ├── main.component.ts
+│   │   ├── main.module.ts
+│   │   └── main.routes.ts
+│   ├── assets
+│   │   ├── bootstrap
+│   │   │   ├── mixins
+│   │   │   │   ├── _alert.scss
+│   │   │   │   ├── _background-variant.scss
+│   │   │   │   ├── _badge.scss
+│   │   │   │   ├── _border-radius.scss
+│   │   │   │   ├── _box-shadow.scss
+│   │   │   │   ├── _breakpoints.scss
+│   │   │   │   ├── _buttons.scss
+│   │   │   │   ├── _caret.scss
+│   │   │   │   ├── _clearfix.scss
+│   │   │   │   ├── _deprecate.scss
+│   │   │   │   ├── _float.scss
+│   │   │   │   ├── _forms.scss
+│   │   │   │   ├── _gradients.scss
+│   │   │   │   ├── _grid-framework.scss
+│   │   │   │   ├── _grid.scss
+│   │   │   │   ├── _hover.scss
+│   │   │   │   ├── _image.scss
+│   │   │   │   ├── _list-group.scss
+│   │   │   │   ├── _lists.scss
+│   │   │   │   ├── _nav-divider.scss
+│   │   │   │   ├── _pagination.scss
+│   │   │   │   ├── _reset-text.scss
+│   │   │   │   ├── _resize.scss
+│   │   │   │   ├── _screen-reader.scss
+│   │   │   │   ├── _size.scss
+│   │   │   │   ├── _table-row.scss
+│   │   │   │   ├── _text-emphasis.scss
+│   │   │   │   ├── _text-hide.scss
+│   │   │   │   ├── _text-truncate.scss
+│   │   │   │   ├── _transition.scss
+│   │   │   │   └── _visibility.scss
+│   │   │   ├── utilities
+│   │   │   │   ├── _align.scss
+│   │   │   │   ├── _background.scss
+│   │   │   │   ├── _borders.scss
+│   │   │   │   ├── _clearfix.scss
+│   │   │   │   ├── _display.scss
+│   │   │   │   ├── _embed.scss
+│   │   │   │   ├── _flex.scss
+│   │   │   │   ├── _float.scss
+│   │   │   │   ├── _overflow.scss
+│   │   │   │   ├── _position.scss
+│   │   │   │   ├── _screenreaders.scss
+│   │   │   │   ├── _shadows.scss
+│   │   │   │   ├── _sizing.scss
+│   │   │   │   ├── _spacing.scss
+│   │   │   │   ├── _stretched-link.scss
+│   │   │   │   ├── _text.scss
+│   │   │   │   └── _visibility.scss
+│   │   │   ├── vendor
+│   │   │   │   └── _rfs.scss
+│   │   │   ├── _alert.scss
+│   │   │   ├── _badge.scss
+│   │   │   ├── _breadcrumb.scss
+│   │   │   ├── _button-group.scss
+│   │   │   ├── _buttons.scss
+│   │   │   ├── _card.scss
+│   │   │   ├── _carousel.scss
+│   │   │   ├── _close.scss
+│   │   │   ├── _code.scss
+│   │   │   ├── _custom-forms.scss
+│   │   │   ├── _dropdown.scss
+│   │   │   ├── _forms.scss
+│   │   │   ├── _functions.scss
+│   │   │   ├── _grid.scss
+│   │   │   ├── _images.scss
+│   │   │   ├── _input-group.scss
+│   │   │   ├── _jumbotron.scss
+│   │   │   ├── _list-group.scss
+│   │   │   ├── _media.scss
+│   │   │   ├── _mixins.scss
+│   │   │   ├── _modal.scss
+│   │   │   ├── _nav.scss
+│   │   │   ├── _navbar.scss
+│   │   │   ├── _pagination.scss
+│   │   │   ├── _popover.scss
+│   │   │   ├── _print.scss
+│   │   │   ├── _progress.scss
+│   │   │   ├── _reboot.scss
+│   │   │   ├── _root.scss
+│   │   │   ├── _spinners.scss
+│   │   │   ├── _tables.scss
+│   │   │   ├── _toasts.scss
+│   │   │   ├── _tooltip.scss
+│   │   │   ├── _transitions.scss
+│   │   │   ├── _type.scss
+│   │   │   ├── _utilities.scss
+│   │   │   ├── _variables.scss
+│   │   │   ├── bootstrap-grid.scss
+│   │   │   ├── bootstrap-reboot.scss
+│   │   │   └── bootstrap.scss
+│   │   ├── css
+│   │   │   ├── fonts
+│   │   │   │   ├── element-icons.woff
+│   │   │   │   ├── MaterialIcons-Regular.eot
+│   │   │   │   ├── MaterialIcons-Regular.ijmap
+│   │   │   │   ├── MaterialIcons-Regular.svg
+│   │   │   │   ├── MaterialIcons-Regular.ttf
+│   │   │   │   ├── MaterialIcons-Regular.woff
+│   │   │   │   └── MaterialIcons-Regular.woff2
+│   │   │   ├── webfonts
+│   │   │   │   ├── fa-brands-400.eot
+│   │   │   │   ├── fa-brands-400.svg
+│   │   │   │   ├── fa-brands-400.ttf
+│   │   │   │   ├── fa-brands-400.woff
+│   │   │   │   ├── fa-brands-400.woff2
+│   │   │   │   ├── fa-regular-400.eot
+│   │   │   │   ├── fa-regular-400.svg
+│   │   │   │   ├── fa-regular-400.ttf
+│   │   │   │   ├── fa-regular-400.woff
+│   │   │   │   ├── fa-regular-400.woff2
+│   │   │   │   ├── fa-solid-900.eot
+│   │   │   │   ├── fa-solid-900.svg
+│   │   │   │   ├── fa-solid-900.ttf
+│   │   │   │   ├── fa-solid-900.woff
+│   │   │   │   └── fa-solid-900.woff2
+│   │   │   ├── animate.3.7.0.min.css
+│   │   │   ├── fontawesome.all.css
+│   │   │   └── material-icons.css
+│   │   ├── dashboard
+│   │   │   ├── material
+│   │   │   │   ├── _cathy-green.scss
+│   │   │   │   └── _material-icon.scss
+│   │   │   ├── mixins
+│   │   │   │   ├── _arrow.scss
+│   │   │   │   ├── _buttons.scss
+│   │   │   │   ├── _forms.scss
+│   │   │   │   ├── _grid-framework.scss
+│   │   │   │   └── _grid.scss
+│   │   │   ├── navs
+│   │   │   │   ├── _global.scss
+│   │   │   │   ├── _sidebar.scss
+│   │   │   │   └── _topbar.scss
+│   │   │   ├── utilities
+│   │   │   │   ├── _animation.scss
+│   │   │   │   ├── _background.scss
+│   │   │   │   ├── _border.scss
+│   │   │   │   ├── _display.scss
+│   │   │   │   ├── _progress.scss
+│   │   │   │   ├── _rotate.scss
+│   │   │   │   ├── _size.scss
+│   │   │   │   └── _text.scss
+│   │   │   ├── _admin.scss
+│   │   │   ├── _buttons.scss
+│   │   │   ├── _cards.scss
+│   │   │   ├── _charts.scss
+│   │   │   ├── _dimensions.scss
+│   │   │   ├── _dropdowns.scss
+│   │   │   ├── _error.scss
+│   │   │   ├── _footer.scss
+│   │   │   ├── _forms.scss
+│   │   │   ├── _global.scss
+│   │   │   ├── _grid.scss
+│   │   │   ├── _ipad.scss
+│   │   │   ├── _loading.scss
+│   │   │   ├── _login.scss
+│   │   │   ├── _mixins.scss
+│   │   │   ├── _modal.scss
+│   │   │   ├── _navbar.scss
+│   │   │   ├── _navs.scss
+│   │   │   ├── _reboot.scss
+│   │   │   ├── _scroll.scss
+│   │   │   ├── _sidemenu.scss
+│   │   │   ├── _signal.scss
+│   │   │   ├── _style.scss
+│   │   │   ├── _table.scss
+│   │   │   ├── _tooltip.scss
+│   │   │   ├── _utilities.scss
+│   │   │   ├── _variables.scss
+│   │   │   └── op-dashboard-2.scss
+│   │   ├── helpers
+│   │   │   ├── _variables.scss
+│   │   │   └── _variablesSelf.scss
+│   │   ├── images
+│   │   │   ├── circle
+│   │   │   │   ├── circlebg_default.svg
+│   │   │   │   ├── circlebg_disabled.svg
+│   │   │   │   └── circlebg_hover.svg
+│   │   │   ├── ckeditor
+│   │   │   │   └── icons.png
+│   │   │   ├── credit
+│   │   │   │   ├── auto-pay.png
+│   │   │   │   ├── creditCard.png
+│   │   │   │   ├── e-billing.png
+│   │   │   │   ├── gold-card.png
+│   │   │   │   ├── moneyup.png
+│   │   │   │   └── red-dot.png
+│   │   │   ├── icons
+│   │   │   │   ├── icon-birthday-color.png
+│   │   │   │   ├── icon-birthday-grey.png
+│   │   │   │   ├── icon-birthday.png
+│   │   │   │   ├── icon-cardgift-color.png
+│   │   │   │   ├── icon-cardgift-grey.png
+│   │   │   │   ├── icon-gift-color.png
+│   │   │   │   ├── icon-gift-grey.png
+│   │   │   │   ├── icon-phone-color.png
+│   │   │   │   ├── icon-phone-grey.png
+│   │   │   │   ├── icon-phone-nocontact.png
+│   │   │   │   ├── icon-up-grade.png
+│   │   │   │   ├── icon-up-grade2.png
+│   │   │   │   └── record_voice_over.png
+│   │   │   ├── light-icon
+│   │   │   │   ├── creditcard_level0.png
+│   │   │   │   ├── creditcard_level2.png
+│   │   │   │   ├── CUBE_460x0w.png
+│   │   │   │   ├── cube-logo.png
+│   │   │   │   ├── cur_level0.png
+│   │   │   │   ├── cur_level2_1.png
+│   │   │   │   ├── cur_level2_22.png
+│   │   │   │   ├── cur_level2.png
+│   │   │   │   ├── ins_level0.png
+│   │   │   │   ├── ins_level2.png
+│   │   │   │   ├── loan_level0.png
+│   │   │   └── loan_level2.png
+│   │   │   ├── user-icon
+│   │   │   │   ├── female.png
+│   │   │   │   └── male.png
+│   │   │   ├── angry_face.svg
+│   │   │   ├── angryFace.png
+│   │   │   ├── cathay-logo-xs.png
+│   │   │   ├── cathay-logo.jpg
+│   │   │   ├── cathay-logo.png
+│   │   │   ├── cathay-logo2.jpg
+│   │   │   ├── icon_female.png
+│   │   │   ├── icon_female400.png
+│   │   │   ├── icon_male.png
+│   │   │   ├── icon_male400.png
+│   │   │   └── logo_for_email.jpg
+│   │   ├── js
+│   │   │   ├── chart
+│   │   │   │   ├── apexcharts.js
+│   │   │   │   └── apexcharts.min.js
+│   │   │   ├── dashboard
+│   │   │   │   ├── demo
+│   │   │   │   │   ├── chart-area-demo.js
+│   │   │   │   │   ├── chart-bar-demo.js
+│   │   │   │   │   ├── chart-pie-demo.js
+│   │   │   │   │   └── datatables-demo.js
+│   │   │   │   ├── sb-admin-2.js
+│   │   │   │   └── sb-admin-2.min.js
+│   │   │   ├── env
+│   │   │   │   ├── PROD_env.js
+│   │   │   │   ├── UAT_env.js
+│   │   │   │   └── UT_env.js
+│   │   │   ├── bootstrap.min.js
+│   │   │   ├── jquery-3.6.4.min.js
+│   │   │   └── popper.min.js
+│   │   ├── md-theme
+│   │   │   └── custom-theme.scss
+│   │   ├── skins
+│   │   │   ├── kama
+│   │   │   │   ├── images
+│   │   │   │   │   ├── dialog_sides_rtl.png
+│   │   │   │   │   ├── dialog_sides.gif
+│   │   │   │   │   ├── dialog_sides.png
+│   │   │   │   │   ├── mini.gif
+│   │   │   │   │   ├── spinner.gif
+│   │   │   │   │   ├── sprites_ie6.png
+│   │   │   │   │   ├── sprites.png
+│   │   │   │   │   └── toolbar_start.gif
+│   │   │   │   ├── dialog_ie.css
+│   │   │   │   ├── dialog_ie7.css
+│   │   │   │   ├── dialog_ie8.css
+│   │   │   │   ├── dialog_iequirks.css
+│   │   │   │   ├── dialog.css
+│   │   │   │   ├── editor_ie.css
+│   │   │   │   ├── editor_ie7.css
+│   │   │   │   ├── editor_ie8.css
+│   │   │   │   ├── editor_iequirks.css
+│   │   │   │   ├── editor.css
+│   │   │   │   ├── icons_hidpi.png
+│   │   │   │   ├── icons.png
+│   │   │   │   ├── readme.md
+│   │   │   │   └── skin.js
+│   │   │   └── minimalist
+│   │   │       ├── images
+│   │   │       │   ├── hidpi
+│   │   │       │   │   ├── close.png
+│   │   │       │   │   ├── lock-open.png
+│   │   │       │   │   ├── lock.png
+│   │   │       │   │   └── refresh.png
+│   │   │       │   ├── arrow.png
+│   │   │       │   ├── close.png
+│   │   │       │   ├── lock-open.png
+│   │   │       │   ├── lock.png
+│   │   │       │   └── refresh.png
+│   │   │       ├── dialog_ie.css
+│   │   │       ├── dialog_ie7.css
+│   │   │       ├── dialog_ie8.css
+│   │   │       ├── dialog_iequirks.css
+│   │   │       ├── dialog.css
+│   │   │       ├── editor_gecko.css
+│   │   │       ├── editor_ie.css
+│   │   │       ├── editor_ie7.css
+│   │   │       ├── editor_ie8.css
+│   │   │       ├── editor_iequirks.css
+│   │   │       ├── editor.css
+│   │   │       ├── icons_hidpi.png
+│   │   │       ├── icons.png
+│   │   │       ├── readme.md
+│   │   │       └── skin.js
+│   │   ├── .gitkeep
+│   │   ├── all.scss
+│   │   ├── image.json
+│   │   └── url.json
+│   ├── environments
+│   │   ├── environment.prod.ts
+│   │   └── environment.ts
+│   ├── mock
+│   │   ├── AcctNtdInfo
+│   │   │   ├── AcctNtdInfo-level0.json
+│   │   │   ├── AcctNtdInfo-level1.json
+│   │   │   ├── AcctNtdInfo-level2.json
+│   │   │   └── AcctNtdInfo.json
+│   │   ├── CheckEIPToken
+│   │   │   └── CheckEIPToken.json
+│   │   ├── clickLog
+│   │   │   └── clickLog.json
+│   │   ├── currencyDpfxDetail
+│   │   │   ├── currencyDpfxDetail-hasdata.json
+│   │   │   ├── currencyDpfxDetail-level1.json
+│   │   │   ├── currencyDpfxDetail-nodata.json
+│   │   │   └── currencyDpfxDetail.json
+│   │   ├── cust_digital_upgrade
+│   │   │   └── cust_digital_upgrade.json
+│   │   ├── CustCCardSMS
+│   │   │   └── CustCCardSMS.json
+│   │   ├── custComplaint
+│   │   │   └── custComplaint.json
+│   │   ├── custContact
+│   │   │   └── custContact.json
+│   │   ├── CustFace
+│   │   │   └── CustFace.json
+│   │   ├── CustFacility
+│   │   │   └── CustFacility.json
+│   │   ├── custIntrInfo
+│   │   │   └── custIntrInfo.json
+│   │   ├── CustLiabilities
+│   │   │   └── CustLiabilities.json
+│   │   ├── CustMMBSMS
+│   │   │   └── CustMMBSMS.json
+│   │   ├── customerFreeFee
+│   │   │   └── customerFreeFee.json
+│   │   ├── CustomerJourney
+│   │   │   └── CustomerJourney.json
+│   │   ├── customerProfile
+│   │   │   └── customerProfile.json
+│   │   ├── custProfileOther
+│   │   │   └── custProfileOther.json
+│   │   ├── custROBOEmail
+│   │   │   └── custROBOEmail.json
+│   │   ├── custROBOSMS
+│   │   │   └── custROBOSMS.json
+│   │   ├── custVip
+│   │   │   └── getOpCustVIPInfo.json
+│   │   ├── DigiRecommendDebitCard
+│   │   │   └── DigiRecommendDebitCard.json
+│   │   ├── DigiRecommendLineBCDetail
+│   │   │   └── DigiRecommendLineBCDetail.json
+│   │   ├── DigiRecommendMMBDetail
+│   │   │   └── DigiRecommendMMBDetail.json
+│   │   ├── enterprise
+│   │   │   └── enterprise.json
+│   │   ├── getAcctTrustKey
+│   │   │   └── getAcctTrustKey.json
+│   │   ├── GetCMSCardListData
+│   │   │   └── GetCMSCardListData.json
+│   │   ├── getToken
+│   │   │   └── getToken.json
+│   │   ├── giftInfo
+│   │   │   └── giftInfo.json
+│   │   ├── HoldingProductCreditCardDetail
+│   │   │   ├── HoldingProductCreditCardDetail_old.json
+│   │   │   └── HoldingProductCreditCardDetail.json
+│   │   ├── HoldingProductCreditCardInfo
+│   │   │   └── HoldingProductCreditCardInfo.json
+│   │   ├── HoldingProductInsInfo
+│   │   │   └── HoldingProductInsInfo.json
+│   │   ├── identity
+│   │   │   └── identity.json
+│   │   ├── investment
+│   │   │   └── investment.json
+│   │   ├── NoSell
+│   │   │   └── NoSell.json
+│   │   ├── PromoteEmail
+│   │   │   └── PromoteEmail.json
+│   │   ├── PromotePitch
+│   │   │   ├── PromotePitch.json
+│   │   │   └── PromotePitchOp.json
+│   │   ├── PromoteProduct
+│   │   │   └── PromoteProduct.json
+│   │   ├── PromoteProject
+│   │   │   └── PromoteProject.json
+│   │   ├── PromoteSMS
+│   │   │   └── PromoteSMS.json
+│   │   ├── recomAndPitch
+│   │   │   └── recomAndPitch.json
+│   │   ├── rejectpromotion
+│   │   │   └── rejectpromotion.json
+│   │   ├── SendPromoteEmail
+│   │   │   ├── SendPromoteEmail.json
+│   │   │   ├── sendPromoteEmailPaas
+│   │   │   │   └── sendPromoteEmailPaas.json
+│   │   ├── SendPromoteMsg
+│   │   │   └── SendPromoteMsg.json
+│   │   ├── SetCustCCardEmail
+│   │   │   └── SetCustCCardEmail.json
+│   │   ├── SetPromoteCustMmbEmail
+│   │   │   └── SetPromoteCustMmbEmail.json
+│   │   ├── storeOpRecommData
+│   │   │   └── storeOpRecommData.json
+│   │   └── upGradeAndComplaint
+│   │       └── upGradeAndComplaint.json
+│   ├── browserslist
+│   ├── env.js
+│   ├── env.service.provider.ts
+│   ├── env.service.ts
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── karma.conf.js
+│   ├── main.ts
+│   ├── polyfills.ts
+│   ├── styles.scss
+│   ├── test.ts
+│   ├── tsconfig.app.json
+│   ├── tsconfig.spec.json
+│   ├── tslint.json
+│   └── typings.d.ts
+├── .browserslistrc
+├── .editorconfig
+├── .gitignore
+├── .npmrc_
+├── angular.json
+├── package-lock.json
+├── package.json
+├── proxy-config-dev.json
+├── README.md
+├── structure.txt
+├── tree.js
+├── tsconfig.json
+└── tslint.json

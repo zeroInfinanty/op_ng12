@@ -51,7 +51,22 @@ nvm use
 
 ---
 
-## 4. 常用指令
+## 4. 專案目錄架構建立 (`src/`)
+
+依據 [`structure.txt`](structure.txt) 建立 `src/` 下的完整目錄與空白檔案結構（暫不包含 `src/assets` 靜態資源）：
+
+- **`src/app/`**：
+  - 頁面與版型模組：`admin-setting`、`blank-page`、`content-layout`、`dashboard`、`dashboard-un-auth`、`header`、`timeout`、`main.*`
+  - 彈窗模組 (`dialog/`)：`dialog-wrapper`、`dialog-config`、`dialog-registry` 及 `second-model/` 下各業務區塊元件與服務
+  - 共用模組 (`shared/`)：`components/`（`admin-form`、`block`、`common`、`email-tpl`、`shared-icon`）與 `shared-twinkling/`
+  - 資料模型與枚舉：`models/`（`adminPage`、`common`、`second`、`token` 及各 API Request/Response 模型）、`enums/`
+  - 共用服務、管道與驗證：`services/`（含 `itemService/`）、`pipe/`、`directives/`、`validation/`、`module/shared-material.module.ts`、`dummy/`
+- **`src/mock/`**：各 API 對應之本地端 Mock JSON 結構
+- **`src/` 根目錄環境檔**：`env.js`、`env.service.ts`、`env.service.provider.ts`、`typings.d.ts` 等
+
+---
+
+## 5. 常用指令
 
 ```bash
 # 1. 切換 Node 版本
