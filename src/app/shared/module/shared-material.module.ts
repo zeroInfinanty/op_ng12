@@ -72,7 +72,7 @@ import { MatOptionModule } from '@angular/material/core';
     MatTooltipModule,
     MatFormFieldModule,
     MatOptionModule
-
+ 
   ]
 })
 export class SharedMaterialModule { }

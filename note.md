@@ -10,6 +10,10 @@
 第三階段：
 env.service.ts
 shared/
+    - components (X)
     - enums
+    - models (WIP)
+        - adminPage (WIP)
+        - common (OK)
     - pipe
     - rules
