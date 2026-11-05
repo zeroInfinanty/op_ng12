@@ -11,3 +11,5 @@
 env.service.ts
 shared/
     - enums
+    - pipe
+    - rules
