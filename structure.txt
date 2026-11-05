@@ -497,254 +497,254 @@ op_ng12
 │   │   │   │   │   │   ├── email-robo.component.scss
 │   │   │   │   │   │   └── email-robo.component.ts
 │   │   │   │   │   └── email-tpl.module.ts
-│   │   │   │   └── shared-icon
-│   │   │   │       ├── icon-info
-│   │   │   │       │   ├── icon-info.component.html
-│   │   │   │       │   ├── icon-info.component.scss
-│   │   │   │       │   └── icon-info.component.ts
-│   │   │   │       ├── icon-lbc
-│   │   │   │       │   ├── icon-lbc.component.html
-│   │   │   │       │   ├── icon-lbc.component.scss
-│   │   │   │       │   └── icon-lbc.component.ts
-│   │   │   │       ├── icon-no
-│   │   │   │       │   ├── icon-no.component.html
-│   │   │   │       │   ├── icon-no.component.scss
-│   │   │   │       │   └── icon-no.component.ts
-│   │   │   │       ├── icon-search
-│   │   │   │       │   ├── icon-search.component.html
-│   │   │   │       │   ├── icon-search.component.scss
-│   │   │   │       │   └── icon-search.component.ts
-│   │   │   │       ├── icon-warning
-│   │   │   │       │   ├── icon-warning.component.html
-│   │   │   │       │   ├── icon-warning.component.scss
-│   │   │   │       │   └── icon-warning.component.ts
-│   │   │   │       ├── icon-yes
-│   │   │   │       │   ├── icon-yes.component.html
-│   │   │   │       │   ├── icon-yes.component.scss
-│   │   │   │       │   └── icon-yes.component.ts
-│   │   │   │       ├── progress-bar
-│   │   │   │       │   ├── progress-bar.component.html
-│   │   │   │       │   ├── progress-bar.component.scss
-│   │   │   │       │   └── progress-bar.component.ts
-│   │   │   │       ├── progress-steps
-│   │   │   │       │   ├── progress-steps.component.html
-│   │   │   │       │   ├── progress-steps.component.scss
-│   │   │   │       │   └── progress-steps.component.ts
-│   │   │   │       ├── text-btn
-│   │   │   │       │   ├── text-btn.component.html
-│   │   │   │       │   ├── text-btn.component.scss
-│   │   │   │       │   └── text-btn.component.ts
-│   │   │   │       └── shared-icon.module.ts
-│   │   │   └── shared-twinkling
-│   │   │       ├── twinkling-base-circle
-│   │   │       │   ├── twinkling-base-circle.component.html
-│   │   │       │   ├── twinkling-base-circle.component.scss
-│   │   │       │   └── twinkling-base-circle.component.ts
-│   │   │       ├── twinkling-glowing
-│   │   │       │   ├── twinkling-glowing.component.html
-│   │   │       │   ├── twinkling-glowing.component.scss
-│   │   │       │   └── twinkling-glowing.component.ts
-│   │   │       ├── twinkling-glowing-circle
-│   │   │       │   ├── twinkling-glowing-circle.component.html
-│   │   │       │   ├── twinkling-glowing-circle.component.scss
-│   │   │       │   └── twinkling-glowing-circle.component.ts
-│   │   │       ├── twinkling-halo
-│   │   │       │   ├── twinkling-halo.component.html
-│   │   │       │   ├── twinkling-halo.component.scss
-│   │   │       │   └── twinkling-halo.component.ts
-│   │   │       ├── twinkling-wave
-│   │   │       │   ├── twinkling-wave.component.html
-│   │   │       │   ├── twinkling-wave.component.scss
-│   │   │       │   └── twinkling-wave.component.ts
-│   │   │       ├── twinkling-wave-circle
-│   │   │       │   ├── twinkling-wave-circle.component.html
-│   │   │       │   ├── twinkling-wave-circle.component.scss
-│   │   │       │   └── twinkling-wave-circle.component.ts
-│   │   │       ├── twinkling1-base
-│   │   │       │   ├── twinkling1-base.component.html
-│   │   │       │   ├── twinkling1-base.component.scss
-│   │   │       │   └── twinkling1-base.component.ts
-│   │   │       ├── css-style.ts
-│   │   │       └── shared-twinkling.module.ts
-│   │   ├── enums
-│   │   │   ├── data-enum.ts
-│   │   │   └── signalLight-enum.ts
-│   │   ├── models
-│   │   │   ├── adminPage
-│   │   │   │   ├── getCjToken-request.ts
-│   │   │   │   ├── getCjToken-response.ts
-│   │   │   │   ├── getCMSCardList-request.ts
-│   │   │   │   ├── getCMSCardList-response.ts
-│   │   │   │   ├── getPromoteEmail-request.ts
-│   │   │   │   ├── getPromoteEmail-response.ts
-│   │   │   │   ├── getPromotePitch-request.ts
-│   │   │   │   ├── getPromotePitch-response.ts
-│   │   │   │   ├── getPromotePitchOp-request.ts
-│   │   │   │   ├── getPromotePitchOp-response.ts
-│   │   │   │   ├── getPromoteProduct-request.ts
-│   │   │   │   ├── getPromoteProduct-response.ts
-│   │   │   │   ├── getPromoteProject-request.ts
-│   │   │   │   ├── getPromoteProject-response.ts
-│   │   │   │   ├── getPromoteSMS-request.ts
-│   │   │   │   ├── getPromoteSMS-response.ts
-│   │   │   │   ├── sendPromoteEmail-request.ts
-│   │   │   │   ├── sendPromoteEmail-response.ts
-│   │   │   │   ├── sendPromoteMsg-request.ts
-│   │   │   │   ├── sendPromoteMsg-response.ts
-│   │   │   │   ├── setCustCCardEmail-request.ts
-│   │   │   │   ├── setCustCCardEmail-response.ts
-│   │   │   │   ├── setCustCCardSMS-request.ts
-│   │   │   │   ├── setCustCCardSMS-response.ts
-│   │   │   │   ├── setCustMMBEmail-request.ts
-│   │   │   │   ├── setCustMMBEmail-response.ts
-│   │   │   │   ├── setCustMMBSMS-request.ts
-│   │   │   │   ├── setCustMMBSMS-response.ts
-│   │   │   │   ├── setCustROBOEmail-request.ts
-│   │   │   │   ├── setCustROBOEmail-response.ts
-│   │   │   │   ├── setCustROBOSMS-request.ts
-│   │   │   │   └── setCustROBOSMS-response.ts
-│   │   │   ├── common
-│   │   │   │   ├── common-header-request.ts
-│   │   │   │   ├── common-header-response.ts
-│   │   │   │   ├── common-request.ts
-│   │   │   │   ├── common-response.ts
-│   │   │   │   ├── login-data.ts
-│   │   │   │   ├── sidemenu-list.ts
-│   │   │   │   ├── token-header-request.ts
-│   │   │   │   └── token-header-response.ts
-│   │   │   ├── second
-│   │   │   │   ├── accCurrency-request.ts
-│   │   │   │   ├── accCurrency-response.ts
-│   │   │   │   ├── accNtd-request.ts
-│   │   │   │   ├── accNtd-response.ts
-│   │   │   │   ├── currency-dpfx-detail-request.ts
-│   │   │   │   ├── currency-dpfx-detail-response.ts
-│   │   │   │   ├── custFace-request.ts
-│   │   │   │   ├── custFace-response.ts
-│   │   │   │   ├── custLiabilities-request.ts
-│   │   │   │   ├── custLiabilities-response.ts
-│   │   │   │   ├── custProfile-angryBlock-request.ts
-│   │   │   │   ├── custProfile-angryBlock-response.ts
-│   │   │   │   ├── custProfile-comBlock-request.ts
-│   │   │   │   ├── custProfile-comBlock-response.ts
-│   │   │   │   ├── custProfile-contactBlock-request.ts
-│   │   │   │   ├── custProfile-contactBlock-response.ts
-│   │   │   │   ├── custProfile-creditBlock-request.ts
-│   │   │   │   ├── custProfile-creditBlock-response.ts
-│   │   │   │   ├── custProfile-handTransfer-request.ts
-│   │   │   │   ├── custProfile-handTransfer-response.ts
-│   │   │   │   ├── custProfile-upVipBlock-request.ts
-│   │   │   │   ├── custProfile-upVipBlock-response.ts
-│   │   │   │   ├── deposit-request.ts
-│   │   │   │   ├── deposit-response.ts
-│   │   │   │   ├── digitalUpgrade-request.ts
-│   │   │   │   ├── digitalUpgrade-response.ts
-│   │   │   │   ├── finance-request.ts
-│   │   │   │   ├── finance-response.ts
-│   │   │   │   ├── insurance-request.ts
-│   │   │   │   ├── insurance-response.ts
-│   │   │   │   ├── lbc-request.ts
-│   │   │   │   ├── lbc-response.ts
-│   │   │   │   ├── mmb-request.ts
-│   │   │   │   ├── mmb-response.ts
-│   │   │   │   ├── prodHold-digiMoney-request.ts
-│   │   │   │   └── prodHold-digiMoney-response.ts
-│   │   │   ├── token
-│   │   │   │   ├── getAcctTrustKey-request.ts
-│   │   │   │   ├── getAcctTrustKey-response.ts
-│   │   │   │   ├── getToken-request.ts
-│   │   │   │   ├── getToken-response.ts
-│   │   │   │   └── token-common-header-request.ts
-│   │   │   ├── checkEIPToken-request.ts
-│   │   │   ├── checkEIPToken-response.ts
-│   │   │   ├── clickStore-request.ts
-│   │   │   ├── clickStore-response.ts
-│   │   │   ├── custFacility-request.ts
-│   │   │   ├── custFacility-response.ts
-│   │   │   ├── custJourney-request.ts
-│   │   │   ├── custJourney-response.ts
-│   │   │   ├── custProfile-contactInfo-request.ts
-│   │   │   ├── custProfile-contactInfo-response.ts
-│   │   │   ├── custProfile-feeCnt-request.ts
-│   │   │   ├── custProfile-feeCnt-response.ts
-│   │   │   ├── custProfile-giftInfo-request.ts
-│   │   │   ├── custProfile-giftInfo-response.ts
-│   │   │   ├── custProfile-other-request.ts
-│   │   │   ├── custProfile-other-response.ts
-│   │   │   ├── custProfile-otherRecommendation-request.ts
-│   │   │   ├── custProfile-otherRecommendation-response.ts
-│   │   │   ├── custProfile-persRight-response.ts
-│   │   │   ├── custProfile-rejPromotion-request.ts
-│   │   │   ├── custProfile-rejPromotion-response.ts
-│   │   │   ├── custProfile-request.ts
-│   │   │   ├── custProfile-response.ts
-│   │   │   ├── custProfile-upgradeComplaint-request.ts
-│   │   │   ├── custProfile-upgradeComplaint-response.ts
-│   │   │   ├── getAccountTrustKey-request.ts
-│   │   │   ├── getAccountTrustKey-response.ts
-│   │   │   ├── getAoCheck-request.ts
-│   │   │   ├── getAoCheck-response.ts
-│   │   │   ├── holdingProd-assets-request.ts
-│   │   │   ├── holdingProd-assets-response.ts
-│   │   │   ├── holdingProd-assetsInvestment-request.ts
-│   │   │   ├── holdingProd-assetsInvestment-response.ts
-│   │   │   ├── holdingProd-assetsNtdDetail-request.ts
-│   │   │   ├── holdingProd-assetsNtdDetail-response.ts
-│   │   │   ├── holdingProd-assetsSavingDetail-request.ts
-│   │   │   ├── holdingProd-assetsSavingDetail-response.ts
-│   │   │   ├── holdingProd-creditCardDetail-request.ts
-│   │   │   ├── holdingProd-creditCardDetail-response.ts
-│   │   │   ├── holdingProd-creditCardInfo-request.ts
-│   │   │   ├── holdingProd-creditCardInfo-response.ts
-│   │   │   ├── holdingProd-custLiabilities-request.ts
-│   │   │   ├── holdingProd-custLiabilities-response.ts
-│   │   │   ├── noSell-request.ts
-│   │   │   ├── noSell-response.ts
-│   │   │   ├── recommPitch-request.ts
-│   │   │   ├── recommPitch-response.ts
-│   │   │   ├── recommStore-request.ts
-│   │   │   └── recommStore-response.ts
-│   │   ├── module
-│   │   │   └── shared-material.module.ts
-│   │   ├── pipe
-│   │   │   ├── currency-unit.pipe.ts
-│   │   │   ├── custom-date.pipe.ts
-│   │   │   ├── dateformat.detepipe.ts
-│   │   │   ├── default-value.pipe.ts
-│   │   │   └── pipe.module.ts
-│   │   ├── services
-│   │   │   ├── itemService
-│   │   │   │   ├── credit-card-data.service.ts
-│   │   │   │   ├── customer-data.service.ts
-│   │   │   │   ├── dashboard-search.service.ts
-│   │   │   │   ├── login-data.service.ts
-│   │   │   │   ├── store-backstage.service.ts
-│   │   │   │   └── storing-response-data.service.ts
-│   │   │   ├── admin-timeout.service.ts
-│   │   │   ├── change-light-level.service.ts
-│   │   │   ├── change-shiny-style.service.ts
-│   │   │   ├── date-util.service.ts
-│   │   │   ├── dummydata.service.ts
-│   │   │   ├── getHtmlString.service.ts
-│   │   │   ├── getImage.service.ts
-│   │   │   ├── getTab.service.ts
-│   │   │   ├── getToken.service.ts
-│   │   │   ├── geturl.service.ts
-│   │   │   ├── http.service.ts
-│   │   │   ├── inject.service.ts
-│   │   │   ├── ipad-ui.service.ts
-│   │   │   ├── msg-dialog.service.ts
-│   │   │   ├── recomm.service.ts
-│   │   │   ├── resize.service.ts
-│   │   │   ├── shared-tool.service.ts
-│   │   │   ├── shared.service.ts
-│   │   │   ├── store-click.service.ts
-│   │   │   ├── timeout.service.ts
-│   │   │   ├── universal-dialog.service.ts
-│   │   │   ├── user-agent.service.ts
-│   │   │   └── utils.service.ts
-│   │   ├── validation
-│   │   │   └── rules.ts
+│   │   │   │   ├── shared-icon
+│   │   │   │   │   ├── icon-info
+│   │   │   │   │   │   ├── icon-info.component.html
+│   │   │   │   │   │   ├── icon-info.component.scss
+│   │   │   │   │   │   └── icon-info.component.ts
+│   │   │   │   │   ├── icon-lbc
+│   │   │   │   │   │   ├── icon-lbc.component.html
+│   │   │   │   │   │   ├── icon-lbc.component.scss
+│   │   │   │   │   │   └── icon-lbc.component.ts
+│   │   │   │   │   ├── icon-no
+│   │   │   │   │   │   ├── icon-no.component.html
+│   │   │   │   │   │   ├── icon-no.component.scss
+│   │   │   │   │   │   └── icon-no.component.ts
+│   │   │   │   │   ├── icon-search
+│   │   │   │   │   │   ├── icon-search.component.html
+│   │   │   │   │   │   ├── icon-search.component.scss
+│   │   │   │   │   │   └── icon-search.component.ts
+│   │   │   │   │   ├── icon-warning
+│   │   │   │   │   │   ├── icon-warning.component.html
+│   │   │   │   │   │   ├── icon-warning.component.scss
+│   │   │   │   │   │   └── icon-warning.component.ts
+│   │   │   │   │   ├── icon-yes
+│   │   │   │   │   │   ├── icon-yes.component.html
+│   │   │   │   │   │   ├── icon-yes.component.scss
+│   │   │   │   │   │   └── icon-yes.component.ts
+│   │   │   │   │   ├── progress-bar
+│   │   │   │   │   │   ├── progress-bar.component.html
+│   │   │   │   │   │   ├── progress-bar.component.scss
+│   │   │   │   │   │   └── progress-bar.component.ts
+│   │   │   │   │   ├── progress-steps
+│   │   │   │   │   │   ├── progress-steps.component.html
+│   │   │   │   │   │   ├── progress-steps.component.scss
+│   │   │   │   │   │   └── progress-steps.component.ts
+│   │   │   │   │   ├── text-btn
+│   │   │   │   │   │   ├── text-btn.component.html
+│   │   │   │   │   │   ├── text-btn.component.scss
+│   │   │   │   │   │   └── text-btn.component.ts
+│   │   │   │   │   └── shared-icon.module.ts
+│   │   │   │   └── shared-twinkling
+│   │   │   │       ├── twinkling-base-circle
+│   │   │   │       │   ├── twinkling-base-circle.component.html
+│   │   │   │       │   ├── twinkling-base-circle.component.scss
+│   │   │   │       │   └── twinkling-base-circle.component.ts
+│   │   │   │       ├── twinkling-glowing
+│   │   │   │       │   ├── twinkling-glowing.component.html
+│   │   │   │       │   ├── twinkling-glowing.component.scss
+│   │   │   │       │   └── twinkling-glowing.component.ts
+│   │   │   │       ├── twinkling-glowing-circle
+│   │   │   │       │   ├── twinkling-glowing-circle.component.html
+│   │   │   │       │   ├── twinkling-glowing-circle.component.scss
+│   │   │   │       │   └── twinkling-glowing-circle.component.ts
+│   │   │   │       ├── twinkling-halo
+│   │   │   │       │   ├── twinkling-halo.component.html
+│   │   │   │       │   ├── twinkling-halo.component.scss
+│   │   │   │       │   └── twinkling-halo.component.ts
+│   │   │   │       ├── twinkling-wave
+│   │   │   │       │   ├── twinkling-wave.component.html
+│   │   │   │       │   ├── twinkling-wave.component.scss
+│   │   │   │       │   └── twinkling-wave.component.ts
+│   │   │   │       ├── twinkling-wave-circle
+│   │   │   │       │   ├── twinkling-wave-circle.component.html
+│   │   │   │       │   ├── twinkling-wave-circle.component.scss
+│   │   │   │       │   └── twinkling-wave-circle.component.ts
+│   │   │   │       ├── twinkling1-base
+│   │   │   │       │   ├── twinkling1-base.component.html
+│   │   │   │       │   ├── twinkling1-base.component.scss
+│   │   │   │       │   └── twinkling1-base.component.ts
+│   │   │   │       ├── css-style.ts
+│   │   │   │       └── shared-twinkling.module.ts
+│   │   │   ├── enums
+│   │   │   │   ├── data-enum.ts
+│   │   │   │   └── signalLight-enum.ts
+│   │   │   ├── models
+│   │   │   │   ├── adminPage
+│   │   │   │   │   ├── getCjToken-request.ts
+│   │   │   │   │   ├── getCjToken-response.ts
+│   │   │   │   │   ├── getCMSCardList-request.ts
+│   │   │   │   │   ├── getCMSCardList-response.ts
+│   │   │   │   │   ├── getPromoteEmail-request.ts
+│   │   │   │   │   ├── getPromoteEmail-response.ts
+│   │   │   │   │   ├── getPromotePitch-request.ts
+│   │   │   │   │   ├── getPromotePitch-response.ts
+│   │   │   │   │   ├── getPromotePitchOp-request.ts
+│   │   │   │   │   ├── getPromotePitchOp-response.ts
+│   │   │   │   │   ├── getPromoteProduct-request.ts
+│   │   │   │   │   ├── getPromoteProduct-response.ts
+│   │   │   │   │   ├── getPromoteProject-request.ts
+│   │   │   │   │   ├── getPromoteProject-response.ts
+│   │   │   │   │   ├── getPromoteSMS-request.ts
+│   │   │   │   │   ├── getPromoteSMS-response.ts
+│   │   │   │   │   ├── sendPromoteEmail-request.ts
+│   │   │   │   │   ├── sendPromoteEmail-response.ts
+│   │   │   │   │   ├── sendPromoteMsg-request.ts
+│   │   │   │   │   ├── sendPromoteMsg-response.ts
+│   │   │   │   │   ├── setCustCCardEmail-request.ts
+│   │   │   │   │   ├── setCustCCardEmail-response.ts
+│   │   │   │   │   ├── setCustCCardSMS-request.ts
+│   │   │   │   │   ├── setCustCCardSMS-response.ts
+│   │   │   │   │   ├── setCustMMBEmail-request.ts
+│   │   │   │   │   ├── setCustMMBEmail-response.ts
+│   │   │   │   │   ├── setCustMMBSMS-request.ts
+│   │   │   │   │   ├── setCustMMBSMS-response.ts
+│   │   │   │   │   ├── setCustROBOEmail-request.ts
+│   │   │   │   │   ├── setCustROBOEmail-response.ts
+│   │   │   │   │   ├── setCustROBOSMS-request.ts
+│   │   │   │   │   └── setCustROBOSMS-response.ts
+│   │   │   │   ├── common
+│   │   │   │   │   ├── common-header-request.ts
+│   │   │   │   │   ├── common-header-response.ts
+│   │   │   │   │   ├── common-request.ts
+│   │   │   │   │   ├── common-response.ts
+│   │   │   │   │   ├── login-data.ts
+│   │   │   │   │   ├── sidemenu-list.ts
+│   │   │   │   │   ├── token-header-request.ts
+│   │   │   │   │   └── token-header-response.ts
+│   │   │   │   ├── second
+│   │   │   │   │   ├── accCurrency-request.ts
+│   │   │   │   │   ├── accCurrency-response.ts
+│   │   │   │   │   ├── accNtd-request.ts
+│   │   │   │   │   ├── accNtd-response.ts
+│   │   │   │   │   ├── currency-dpfx-detail-request.ts
+│   │   │   │   │   ├── currency-dpfx-detail-response.ts
+│   │   │   │   │   ├── custFace-request.ts
+│   │   │   │   │   ├── custFace-response.ts
+│   │   │   │   │   ├── custLiabilities-request.ts
+│   │   │   │   │   ├── custLiabilities-response.ts
+│   │   │   │   │   ├── custProfile-angryBlock-request.ts
+│   │   │   │   │   ├── custProfile-angryBlock-response.ts
+│   │   │   │   │   ├── custProfile-comBlock-request.ts
+│   │   │   │   │   ├── custProfile-comBlock-response.ts
+│   │   │   │   │   ├── custProfile-contactBlock-request.ts
+│   │   │   │   │   ├── custProfile-contactBlock-response.ts
+│   │   │   │   │   ├── custProfile-creditBlock-request.ts
+│   │   │   │   │   ├── custProfile-creditBlock-response.ts
+│   │   │   │   │   ├── custProfile-handTransfer-request.ts
+│   │   │   │   │   ├── custProfile-handTransfer-response.ts
+│   │   │   │   │   ├── custProfile-upVipBlock-request.ts
+│   │   │   │   │   ├── custProfile-upVipBlock-response.ts
+│   │   │   │   │   ├── deposit-request.ts
+│   │   │   │   │   ├── deposit-response.ts
+│   │   │   │   │   ├── digitalUpgrade-request.ts
+│   │   │   │   │   ├── digitalUpgrade-response.ts
+│   │   │   │   │   ├── finance-request.ts
+│   │   │   │   │   ├── finance-response.ts
+│   │   │   │   │   ├── insurance-request.ts
+│   │   │   │   │   ├── insurance-response.ts
+│   │   │   │   │   ├── lbc-request.ts
+│   │   │   │   │   ├── lbc-response.ts
+│   │   │   │   │   ├── mmb-request.ts
+│   │   │   │   │   ├── mmb-response.ts
+│   │   │   │   │   ├── prodHold-digiMoney-request.ts
+│   │   │   │   │   └── prodHold-digiMoney-response.ts
+│   │   │   │   ├── token
+│   │   │   │   │   ├── getAcctTrustKey-request.ts
+│   │   │   │   │   ├── getAcctTrustKey-response.ts
+│   │   │   │   │   ├── getToken-request.ts
+│   │   │   │   │   ├── getToken-response.ts
+│   │   │   │   │   └── token-common-header-request.ts
+│   │   │   │   ├── checkEIPToken-request.ts
+│   │   │   │   ├── checkEIPToken-response.ts
+│   │   │   │   ├── clickStore-request.ts
+│   │   │   │   ├── clickStore-response.ts
+│   │   │   │   ├── custFacility-request.ts
+│   │   │   │   ├── custFacility-response.ts
+│   │   │   │   ├── custJourney-request.ts
+│   │   │   │   ├── custJourney-response.ts
+│   │   │   │   ├── custProfile-contactInfo-request.ts
+│   │   │   │   ├── custProfile-contactInfo-response.ts
+│   │   │   │   ├── custProfile-feeCnt-request.ts
+│   │   │   │   ├── custProfile-feeCnt-response.ts
+│   │   │   │   ├── custProfile-giftInfo-request.ts
+│   │   │   │   ├── custProfile-giftInfo-response.ts
+│   │   │   │   ├── custProfile-other-request.ts
+│   │   │   │   ├── custProfile-other-response.ts
+│   │   │   │   ├── custProfile-otherRecommendation-request.ts
+│   │   │   │   ├── custProfile-otherRecommendation-response.ts
+│   │   │   │   ├── custProfile-persRight-response.ts
+│   │   │   │   ├── custProfile-rejPromotion-request.ts
+│   │   │   │   ├── custProfile-rejPromotion-response.ts
+│   │   │   │   ├── custProfile-request.ts
+│   │   │   │   ├── custProfile-response.ts
+│   │   │   │   ├── custProfile-upgradeComplaint-request.ts
+│   │   │   │   ├── custProfile-upgradeComplaint-response.ts
+│   │   │   │   ├── getAccountTrustKey-request.ts
+│   │   │   │   ├── getAccountTrustKey-response.ts
+│   │   │   │   ├── getAoCheck-request.ts
+│   │   │   │   ├── getAoCheck-response.ts
+│   │   │   │   ├── holdingProd-assets-request.ts
+│   │   │   │   ├── holdingProd-assets-response.ts
+│   │   │   │   ├── holdingProd-assetsInvestment-request.ts
+│   │   │   │   ├── holdingProd-assetsInvestment-response.ts
+│   │   │   │   ├── holdingProd-assetsNtdDetail-request.ts
+│   │   │   │   ├── holdingProd-assetsNtdDetail-response.ts
+│   │   │   │   ├── holdingProd-assetsSavingDetail-request.ts
+│   │   │   │   ├── holdingProd-assetsSavingDetail-response.ts
+│   │   │   │   ├── holdingProd-creditCardDetail-request.ts
+│   │   │   │   ├── holdingProd-creditCardDetail-response.ts
+│   │   │   │   ├── holdingProd-creditCardInfo-request.ts
+│   │   │   │   ├── holdingProd-creditCardInfo-response.ts
+│   │   │   │   ├── holdingProd-custLiabilities-request.ts
+│   │   │   │   ├── holdingProd-custLiabilities-response.ts
+│   │   │   │   ├── noSell-request.ts
+│   │   │   │   ├── noSell-response.ts
+│   │   │   │   ├── recommPitch-request.ts
+│   │   │   │   ├── recommPitch-response.ts
+│   │   │   │   ├── recommStore-request.ts
+│   │   │   │   └── recommStore-response.ts
+│   │   │   ├── module
+│   │   │   │   └── shared-material.module.ts
+│   │   │   ├── pipe
+│   │   │   │   ├── currency-unit.pipe.ts
+│   │   │   │   ├── custom-date.pipe.ts
+│   │   │   │   ├── dateformat.detepipe.ts
+│   │   │   │   ├── default-value.pipe.ts
+│   │   │   │   └── pipe.module.ts
+│   │   │   ├── services
+│   │   │   │   ├── itemService
+│   │   │   │   │   ├── credit-card-data.service.ts
+│   │   │   │   │   ├── customer-data.service.ts
+│   │   │   │   │   ├── dashboard-search.service.ts
+│   │   │   │   │   ├── login-data.service.ts
+│   │   │   │   │   ├── store-backstage.service.ts
+│   │   │   │   │   └── storing-response-data.service.ts
+│   │   │   │   ├── admin-timeout.service.ts
+│   │   │   │   ├── change-light-level.service.ts
+│   │   │   │   ├── change-shiny-style.service.ts
+│   │   │   │   ├── date-util.service.ts
+│   │   │   │   ├── dummydata.service.ts
+│   │   │   │   ├── getHtmlString.service.ts
+│   │   │   │   ├── getImage.service.ts
+│   │   │   │   ├── getTab.service.ts
+│   │   │   │   ├── getToken.service.ts
+│   │   │   │   ├── geturl.service.ts
+│   │   │   │   ├── http.service.ts
+│   │   │   │   ├── inject.service.ts
+│   │   │   │   ├── ipad-ui.service.ts
+│   │   │   │   ├── msg-dialog.service.ts
+│   │   │   │   ├── recomm.service.ts
+│   │   │   │   ├── resize.service.ts
+│   │   │   │   ├── shared-tool.service.ts
+│   │   │   │   ├── shared.service.ts
+│   │   │   │   ├── store-click.service.ts
+│   │   │   │   ├── timeout.service.ts
+│   │   │   │   ├── universal-dialog.service.ts
+│   │   │   │   ├── user-agent.service.ts
+│   │   │   │   └── utils.service.ts
+│   │   │   └── validation
+│   │   │       └── rules.ts
 │   │   ├── timeout
 │   │   │   ├── component
 │   │   │   │   ├── timeout.component.html
