@@ -11,9 +11,11 @@
 env.service.ts
 shared/
     - components (X)
-    - enums
+    - enums (v)
     - models (WIP)
-        - adminPage (WIP)
-        - common (OK)
-    - pipe
-    - rules
+        - adminPage (v)
+        - common (v)
+        - second (X)
+        - token (WIP)
+    - pipe (v)
+    - rules (v)
