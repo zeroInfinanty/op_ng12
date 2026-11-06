@@ -1,10 +1,13 @@
-💡 給您的兩個省時建議
-可以用「手機拍照上傳」代替純手打： 因為原專案電腦沒有網路，如果您一行一行手敲 600 多個檔案會非常辛苦。您可以像稍早傳 package.json 一樣，直接用手機拍下原專案螢幕上的程式碼（一次拍多個畫面也可以），傳給我並告訴我是哪個檔案，我可以直接幫您把照片裡的程式碼轉成文字寫入對應檔案，並自動檢查語法與型別。
-分模組推進、邊寫邊驗證： 建議您可以依照「基礎建設 → 資料層 → 畫面層」的順序復刻：
-第一階段：env.service.ts、models/、enums/、pipe/
-第二階段：services/（特別是 http.service.ts、getToken.service.ts、itemService/）
-第三階段：shared/、dialog/、各頁面模組（dashboard、admin-setting 等）与 main.module.ts / main.routes.ts
+ai:
 
+當您將程式碼寫入 op_ng12 後，我可以直接掃描並分析整個工作區的所有檔案，為您撰寫完整的開發技術文件，內容可以涵蓋：
+
+系統總體架構圖與模組關聯（使用 Mermaid 繪製 Module 依賴圖、Component 階層圖、Routing 路由表）
+核心流程與資料流（例如 Token 驗證流程、EIP 登入檢查、客戶視圖資料載入、Signal Light 燈號邏輯、Timeout 機制等序列圖）
+API 規格與資料模型對照表（整理 src/app/models/ 下的 Request / Response 結構、對應的 src/mock/ 測試資料與 http.service.ts 呼叫端點）
+共用元件與服務手冊（整理 shared/、dialog/second-model/、pipe/、services/ 的用途、Input/Output 參數與使用方式）
+
+-----
 
 2026/11/5 Start
 第三階段：
@@ -15,7 +18,8 @@ shared/
     - models (WIP)
         - adminPage (v)
         - common (v)
-        - second (X)
-        - token (WIP)
+        - second (WIP)
+        - token (V)
+    - module (?)
     - pipe (v)
     - rules (v)
